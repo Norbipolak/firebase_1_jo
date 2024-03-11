@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 15px;
+}
+
+.box {
+    background-color: #c2e2f2;
+    border: 1px solid #a0bbc8;
+    padding: 15px;
+}
+
+.center-text {
+    text-align: center; /*majd megadjuk a container-nek*/
+}
+
+.mw-500 {
+    max-width: 500px;
+}
+.margin-auto {
+    margin: auto;/*mert nem tudhatjuk, hogy mindegyik boxnak kell ez*/
+}
+
+input, button, select {
+    padding:8px;
+}
+
+.center-input {
+    display: block;
+    margin: 10px auto;
+    /*
+    mert ugye az input, select mezőknél nem lehet csak beállítani, hogy középen legyenek 
+    kell ehhez a display: block tulajdonság is 
+    */
+}
+/*
+A center-input mellett majd megadunk egy w-80-t is mert, oda nem férnek ki a dolgok, amiket be szeretnénk írni 
+*/
+.w-80 {
+    width: 80px;
+}
