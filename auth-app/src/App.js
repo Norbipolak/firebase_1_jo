@@ -12,6 +12,7 @@ function App() {
                     <Route index element={<Registration/>}/>
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/settings" element={<Settings/>}/>
+                    <Route path="/password-reset" element={<PassReset/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>
